@@ -106,6 +106,6 @@ def sort_directory(path):
         other_suffixes,
     )
 
-
-sort_directory(argv[1])
-delete_empty_directories(argv[1])
+def clean_folder():
+    sort_directory(argv[1])
+    delete_empty_directories(argv[1])
